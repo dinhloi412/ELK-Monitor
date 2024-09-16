@@ -11,6 +11,9 @@ services:
       network.bind_host: 0.0.0.0
       network.host: 0.0.0.0
       discovery.type: single-node
+    ports:
+      - '9200:9200'
+      - '9300:9300'
     networks:
       - elk
   kibana:
