@@ -1,0 +1,42 @@
+{"level":"info","ts":1726474004.994831,"caller":"ELK/main.go:29","msg":"test log: 1"}
+{"level":"info","ts":1726474007.9960098,"caller":"ELK/main.go:29","msg":"test log: 2"}
+{"level":"info","ts":1726474010.9981627,"caller":"ELK/main.go:29","msg":"test log: 3"}
+{"level":"info","ts":1726474014.0004072,"caller":"ELK/main.go:29","msg":"test log: 4"}
+{"level":"info","ts":1726474017.001329,"caller":"ELK/main.go:29","msg":"test log: 5"}
+{"level":"info","ts":1726474020.0020998,"caller":"ELK/main.go:29","msg":"test log: 6"}
+{"level":"info","ts":1726474023.0034773,"caller":"ELK/main.go:29","msg":"test log: 7"}
+{"level":"error","ts":1726474026.0042078,"caller":"ELK/main.go:27","msg":"test error","error":"error because test: 8","stacktrace":"main.main\n\tD:/Code/ELK/main.go:27\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
+{"level":"info","ts":1726474029.0069988,"caller":"ELK/main.go:29","msg":"test log: 9"}
+{"level":"info","ts":1726474032.008168,"caller":"ELK/main.go:29","msg":"test log: 10"}
+{"level":"info","ts":1726474035.0088332,"caller":"ELK/main.go:29","msg":"test log: 11"}
+{"level":"info","ts":1726474038.0106125,"caller":"ELK/main.go:29","msg":"test log: 12"}
+{"level":"info","ts":1726474041.0117948,"caller":"ELK/main.go:29","msg":"test log: 13"}
+{"level":"info","ts":1726474044.013043,"caller":"ELK/main.go:29","msg":"test log: 14"}
+{"level":"info","ts":1726474047.0135577,"caller":"ELK/main.go:29","msg":"test log: 15"}
+{"level":"info","ts":1726474050.0146332,"caller":"ELK/main.go:29","msg":"test log: 16"}
+{"level":"info","ts":1726474053.015257,"caller":"ELK/main.go:29","msg":"test log: 17"}
+{"level":"info","ts":1726474056.016209,"caller":"ELK/main.go:29","msg":"test log: 18"}
+{"level":"info","ts":1726474059.0175667,"caller":"ELK/main.go:29","msg":"test log: 19"}
+{"level":"error","ts":1726474062.018738,"caller":"ELK/main.go:27","msg":"test error","error":"error because test: 20","stacktrace":"main.main\n\tD:/Code/ELK/main.go:27\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
+{"level":"info","ts":1726474065.0202107,"caller":"ELK/main.go:29","msg":"test log: 21"}
+{"level":"info","ts":1726474068.02065,"caller":"ELK/main.go:29","msg":"test log: 22"}
+{"level":"info","ts":1726474071.0213892,"caller":"ELK/main.go:29","msg":"test log: 23"}
+{"level":"info","ts":1726474074.0223918,"caller":"ELK/main.go:29","msg":"test log: 24"}
+{"level":"info","ts":1726474077.0236554,"caller":"ELK/main.go:29","msg":"test log: 25"}
+{"level":"info","ts":1726474080.0254405,"caller":"ELK/main.go:29","msg":"test log: 26"}
+{"level":"info","ts":1726474083.0266714,"caller":"ELK/main.go:29","msg":"test log: 27"}
+{"level":"info","ts":1726474086.028344,"caller":"ELK/main.go:29","msg":"test log: 28"}
+{"level":"info","ts":1726474089.0292315,"caller":"ELK/main.go:29","msg":"test log: 29"}
+{"level":"info","ts":1726474092.030094,"caller":"ELK/main.go:29","msg":"test log: 30"}
+{"level":"error","ts":1726474095.030572,"caller":"ELK/main.go:27","msg":"test error","error":"error because test: 31","stacktrace":"main.main\n\tD:/Code/ELK/main.go:27\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
+{"level":"info","ts":1726474098.0317411,"caller":"ELK/main.go:29","msg":"test log: 32"}
+{"level":"info","ts":1726474101.0320315,"caller":"ELK/main.go:29","msg":"test log: 33"}
+{"level":"info","ts":1726474104.0333228,"caller":"ELK/main.go:29","msg":"test log: 34"}
+{"level":"info","ts":1726474107.0342774,"caller":"ELK/main.go:29","msg":"test log: 35"}
+{"level":"info","ts":1726474110.035007,"caller":"ELK/main.go:29","msg":"test log: 36"}
+{"level":"info","ts":1726474113.0360248,"caller":"ELK/main.go:29","msg":"test log: 37"}
+{"level":"info","ts":1726474116.037346,"caller":"ELK/main.go:29","msg":"test log: 38"}
+{"level":"info","ts":1726474119.0384295,"caller":"ELK/main.go:29","msg":"test log: 39"}
+{"level":"info","ts":1726474122.038994,"caller":"ELK/main.go:29","msg":"test log: 40"}
+{"level":"info","ts":1726474125.0403912,"caller":"ELK/main.go:29","msg":"test log: 41"}
+{"level":"info","ts":1726474128.0411892,"caller":"ELK/main.go:29","msg":"test log: 42"}
