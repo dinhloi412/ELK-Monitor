@@ -12,8 +12,8 @@ services:
       network.host: 0.0.0.0
       discovery.type: single-node
     ports:
-      - '9200:9200'
-      - '9300:9300'
+      - "9200:9200"
+      - "9300:9300"
     networks:
       - elk
   kibana:
@@ -28,6 +28,7 @@ services:
     image: docker.elastic.co/logstash/logstash:8.13.4
     volumes:
       - ./logstash/config/logstash.conf:/usr/share/logstash/config/logstash.conf
+    ports:
       - "5044:5044/tcp"
       - "5000:5000/udp"
       - "9600:9600"
