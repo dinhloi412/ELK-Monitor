@@ -35,11 +35,6 @@ services:
       - es-net
     depends_on:
       - elasticsearch
-  filebeat:
-    image: docker.elastic.co/beats/filebeat:8.12.2
-    volumes:
-      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
-      - ./logs:/var/log/server
 networks:
   es-net:
     driver: bridge
