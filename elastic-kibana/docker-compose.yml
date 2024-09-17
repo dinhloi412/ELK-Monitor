@@ -2,7 +2,7 @@ version: "3.0"
 services:
   elasticsearch:
     container_name: es-container
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
     environment:
       - xpack.security.enabled=false
       - "discovery.type=single-node"
@@ -12,7 +12,7 @@ services:
       - 9200:9200
   kibana:
     container_name: kb-container
-    image: docker.elastic.co/kibana/kibana:8.14.0
+    image: docker.elastic.co/kibana/kibana:8.12.2
     environment:
       - ELASTICSEARCH_HOSTS=http://es-container:9200
     networks:
@@ -22,7 +22,7 @@ services:
     ports:
       - 5601:5601
   logstash:
-    image: docker.elastic.co/logstash/logstash:8.14.0
+    image: docker.elastic.co/logstash/logstash:8.12.2
     volumes:
       - ./logstash/config/logstash.conf:/usr/share/logstash/config/logstash.conf:ro
     ports:
@@ -35,6 +35,11 @@ services:
       - es-net
     depends_on:
       - elasticsearch
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.12.2
+    volumes:
+      - ./elk/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./logs:/home/ELK-Monitor/logs
 networks:
   es-net:
     driver: bridge
