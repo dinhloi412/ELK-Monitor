@@ -24,7 +24,7 @@ services:
   logstash:
     image: docker.elastic.co/logstash/logstash:8.12.2
     volumes:
-      - ./logstash/config/logstash.conf:/usr/share/logstash/config/logstash.conf:ro
+      - ./logstash/config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro
     ports:
       - "5044:5044/tcp"
       - "5000:5000/udp"
@@ -38,7 +38,7 @@ services:
   filebeat:
     image: docker.elastic.co/beats/filebeat:8.12.2
     volumes:
-      - ./elk/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./filbeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
       - ./logs:/home/ELK-Monitor/logs
 networks:
   es-net:
